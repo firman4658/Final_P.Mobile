@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "490263796198",
+    "project_id": "finalpmobile",
+    "storage_bucket": "finalpmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490263796198:android:28f484ea464e4f41ec5e27",
+        "android_client_info": {
+          "package_name": "com.example.final_pmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490263796198-dam5cql8c8gog70ip6p8okn833bo1gfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa2RyNQOU48DRWtM7-HlLyFb1QwbfpWz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490263796198-dam5cql8c8gog70ip6p8okn833bo1gfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

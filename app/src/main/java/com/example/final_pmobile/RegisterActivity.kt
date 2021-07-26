@@ -56,9 +56,12 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
 
     public override fun onStart() {
         super.onStart()
-        // Check if user is signed in (non-null) and update UI accordingly.
-        val currentUser = auth.currentUser
-
+        if (auth.currentUser != null){
+            Intent (this@RegisterActivity,Home::class.java).also {
+                it.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                startActivity(it)
+            }
+        }
     }
 
     private fun registerUser(email: String, password: String) {
@@ -87,6 +90,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(p0: View?) {
         TODO("Not yet implemented")
     }
+
 
 
 }

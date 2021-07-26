@@ -2,22 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
+        android:id="@+id/item_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home"/>
+        android:title="Home" />
     <item
-        android:id="@+id/navigation_cari"
+        android:id="@+id/item_kampus"
         android:icon="@drawable/ic_baseline_search_24"
-        android:title="Kampus"/>
-
+        android:title="Kampus" />
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/item_lokasi"
         android:icon="@drawable/ic_baseline_place_24"
-        android:title="Lokasi"/>
-
+        android:title="Lokasi" />
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/item_profile"
         android:icon="@drawable/ic_baseline_person_24"
-        android:title="profile"/>
-
+        android:title="Profile" />
 </menu>

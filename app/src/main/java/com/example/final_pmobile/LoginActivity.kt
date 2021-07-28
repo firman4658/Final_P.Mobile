@@ -88,4 +88,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+    override fun onRestart() {
+        super.onRestart()
+    }
+
 }

@@ -36,6 +36,7 @@ class Home : AppCompatActivity() {
             true
 
         }
+       
     }
     private fun replaceFragment(fragment:Fragment ){
         if(fragment !=null){

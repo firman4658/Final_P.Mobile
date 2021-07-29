@@ -60,7 +60,7 @@
                     android:id="@+id/smtikakba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/daddsa" />
+                    android:src="@drawable/akba" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -75,7 +75,7 @@
 
                 <ImageView
                     android:id="@+id/sSmtikakba"
-                    android:layout_width="wrap_content"
+                    android:layout_width="19dp"
                     android:layout_height="wrap_content"
                     android:src="@drawable/sasas" />
 
@@ -162,8 +162,8 @@
 
                 <ImageView
                     android:id="@+id/sPUNU"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
                     android:src="@drawable/sasas" />
 
             </androidx.cardview.widget.CardView>
@@ -208,7 +208,7 @@
                 android:textStyle="bold" />
 ///////////////////////////BOSOWA///////////////////////////////////
             <TextView
-                android:id="@+id/BOSOWA"
+                android:id="@+id/bosowo"
                 android:layout_width="280dp"
                 android:layout_height="42dp"
                 android:layout_marginLeft="118dp"
@@ -276,7 +276,7 @@
                 app:cardCornerRadius="5dp">
 
                 <ImageView
-                    android:id="@+id/siPUN"
+                    android:id="@+id/sascass"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/profil" />
@@ -292,6 +292,355 @@
                 android:textColor="@color/white"
                 android:textSize="15sp"
                 android:textStyle="bold" />
+
+////////////////////////////////unhAS////////////////////////////////
+            <TextView
+                android:id="@+id/unhas"
+                android:layout_width="280dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1000dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="UNIVERSITAS HASANUDDIN"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1028dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="25dp">
+
+                <ImageView
+                    android:id="@+id/funhtas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/unhas" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="1245dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/ushhs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sasas" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="1245dp"
+                android:text="Lokasi"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            //////
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="1245dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/ffunhas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profil" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="243dp"
+                android:layout_marginTop="1245dp"
+                android:text="Profil"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+///////////////////////////////////DIPA////////////////////////////////
+
+            <TextView
+                android:id="@+id/dipa"
+                android:layout_width="280dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1290dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="UNIVERSITAS DIPANEGARA"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1318dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="25dp">
+
+                <ImageView
+                    android:id="@+id/fdipa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dipa" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="1535dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/dipass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sasas" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="1535dp"
+                android:text="Lokasi"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            //////
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="1535dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/ffdipa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profil" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="243dp"
+                android:layout_marginTop="1535dp"
+                android:text="Profil"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+ ////////////////////uin/////////////////////////////////////////
+            <TextView
+                android:id="@+id/uin"
+                android:layout_width="280dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1580dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="UIN ALAUDDIN MAKASSAR"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1605dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="25dp">
+
+                <ImageView
+                    android:id="@+id/fuin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/uin" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="1825dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/uinss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sasas" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="1825dp"
+                android:text="Lokasi"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            //////
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="1825dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/ffdipaf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profil" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="243dp"
+                android:layout_marginTop="1825dp"
+                android:text="Profil"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+ ///////////////////////unm///////////////////////////////////////
+            <TextView
+                android:id="@+id/unm"
+                android:layout_width="280dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1870dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="UIN NEGERI MAKASSAR"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1890dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="25dp">
+
+                <ImageView
+                    android:id="@+id/fuiFDFn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/unm" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="2135dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/uinssFDF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sasas" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="2115dp"
+                android:text="Lokasi"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            //////
+            <androidx.cardview.widget.CardView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="2115dp"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/ffdipaFDFDf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profil" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="243dp"
+                android:layout_marginTop="2115dp"
+                android:text="Profil"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
 
         </RelativeLayout>
 

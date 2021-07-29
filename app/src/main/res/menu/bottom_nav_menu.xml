@@ -11,10 +11,10 @@
         android:title="Kampus" />
     <item
         android:id="@+id/item_lokasi"
-        android:icon="@drawable/ic_baseline_place_24"
+        android:icon="@drawable/sasas"
         android:title="Lokasi" />
     <item
         android:id="@+id/item_profile"
-        android:icon="@drawable/ic_baseline_person_24"
+        android:icon="@drawable/profil"
         android:title="Profile" />
 </menu>

@@ -1,14 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileFragment">
+    android:id="@+id/profilakba"
+    android:background="@color/black">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Profile" />
+        android:id="@+id/text"
+        android:layout_width="175dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Profil Kampus"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="309dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="STMIK AKBA MAKASSAR"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="145dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/akba" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="345dp"
+        android:layout_height="538dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="      Sejarah berdirinya STMIK AKBA tidak bisa terlepas dari sejarah Yayasan Pendidikan Kartini (Yapenka) Makassar. Yayasan yang berdiri pada tanggal 10 Februari 1995 ini, pada awalnya menyelenggarakan kursus-kursus keterampilan komputer, bahasa Inggris, akuntansi, menjahit, dan musik. Akan tetapi, berdasarkan pengalaman pengelola, para peserta lebih dominan mengikuti kursus komputer, bahasa inggris, dan akuntansi. Ketiga keterampilan tersebut yang masih melekat pada nuansa pendidikan STMIK AKBA sekarang ini."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:justificationMode="inter_word"
+                android:fontFamily="sans-serif-condensed"
+                android:text="      Lokasi kampus Yapenka beberapa kali mengalami perubahan. Pada awalnya kampus Yapenka beralamat di jalan Tinumbu no.104 Makassar. Pada tanggal 18 Oktober 1995, Yapenka membuka Kampus II di jalan Abdullah Dg. Sirua no.214 Makassar. Pada tahun 2006, Kampus I dipindahkan ke jalan Yos Sudarso no. 162 Makassar, dan Kampus II dipindahkan ke jalan Abdullah Dg. Sirua no. 216 Makassar."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="455dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="      Pada tahun 1997, Yapenka membuka program pendidikan setara Diploma Satu yang diberi nama Akademi Komputer, Bahasa, dan Akuntansi (AKBA). Pendidikan ini memberikan tiga kemampuan sekaligus yaitu kemampuan komputer, bahasa Inggris, dan akuntansi. Konsep ini kemudian dikenal dengan nama Konsep 3 in 1. Respon masyarakat terhadap AKBA di luar dugaan ditandai dengan membludaknya jumlah pendaftaran."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="670dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="      Pada tanggal 18 Desember 1998, AKBA berubah menjadi Akademi Ilmu Komputer AKBA (AIK AKBA) berdasarkan SK Mendiknas No. 171/O/1998. Pada saat itu AIK AKBA menyelenggarakan pendidikan dengan program studi D1/D3 Manajemen Informatika, D3 Teknik Komputer, dan D1/D3 Komputerisasi Akuntansi. Konsep pendidikan yang diterapkan masih tetap mempertahankan Konsep 3 in 1."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="865dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+                android:text="      Pada bulan Juni 2008, AIK AKBA berubah status menjadi Sekolah Tinggi Manajemen Informatika dan Komputer AKBA (STMIK AKBA) berdasarkan SK Menteri Pendidikan Nasional No. 106/D/O/2008. Hingga kini STMIK AKBA yang menempati kampus sendiri di jalan Perintis Kemerdekaan no. 75 Makassar ini menyelenggarakan pendidikan dengan program studi S1 Sistem Informasi, S1 Teknik Informatika, D3 Teknik Komputer, D3 Manajemen Informatika, dan D3 Komputerisasi Akuntansi."
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="1100dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="VISI"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1120dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Menjadi Program Studi Teknik Informatika yang Unggul dan Kompetitif secara Global Pada Tahun 2025"
+
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="1190dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="MISI"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView190"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1215dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Menyelenggarakan pendidikan dan pembelajaran untuk menghasilkan lulusan yang mampu merancang dan mengimplementasikan teknik informatika yang inovatif.
+Menyelenggarakan pendidikan untuk menghasilkan lulusan yang beradab, bermoral, dan berwawasan kewirausahaan.
+Melakukan penelitian dan pengembangan yang berkualitas serta bermanfaat di bidang teknologi informatika.
+Melakukan pengabdian kepada masyarakat, lembaga, industri, dan pemerintah dalam bidang teknologi informatika."
+
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1269dp"
+                android:fontFamily="sans-serif-condensed"
+                android:justificationMode="inter_word"
+
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

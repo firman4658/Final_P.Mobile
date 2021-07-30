@@ -1,14 +1,289 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    tools:context=".HomeFragment"
+    android:background="@color/black">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="hello-Home" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.397">
 
-</FrameLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="95dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="PROFIL KELOMPOK"
+                android:textColor="#FAFAFA"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="230dp"
+                android:layout_height="247dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pitto" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Fitriani Amelia"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="155dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="20182205080"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Teknik Informatika"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="230dp"
+                android:layout_height="247dp"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="335dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/giska" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="GiskaFadilah"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="425dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="20182205081"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="445dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Teknik Informatika"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            //fial
+            <androidx.cardview.widget.CardView
+                android:layout_width="230dp"
+                android:layout_height="247dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="600dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/daddsa" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="665dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Muhammad Andrian"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="685dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="20182205082"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="705dp"
+                android:layout_marginLeft="240dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Teknik Informatika"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            //tiwi
+            <androidx.cardview.widget.CardView
+                android:layout_width="230dp"
+                android:layout_height="247dp"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="870dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aswar" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="944dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Aswar Sumarlin"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="965dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="20182205083"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="985dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Teknik Informatika"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            //rany
+            <androidx.cardview.widget.CardView
+                android:layout_width="230dp"
+                android:layout_height="247dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1135dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/firmans" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="1225dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Firmansyah"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="1245dp"
+                android:layout_marginLeft="250dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="20182205086"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="1265dp"
+                android:layout_marginLeft="240dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Teknik Informatika"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -590,7 +590,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginLeft="125dp"
-                android:layout_marginTop="2135dp"
+                android:layout_marginTop="2115dp"
                 android:backgroundTint="@color/white"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
@@ -643,7 +643,17 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
-
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="141dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="2215dp"
+                android:layout_marginLeft="240dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="  "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
         </RelativeLayout>
 
     </ScrollView>

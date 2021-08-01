@@ -19,7 +19,7 @@ class Home : AppCompatActivity() {
     private lateinit var toolbar: Toolbar
     private val Home = HomeFragment()
     private val Profile = ProfileFragment()
-    private val Lokasi = LokasiFragment()
+    private val Lokasi = MapsFragment()
     private val Kampus = KampusFragment()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
